@@ -1,0 +1,50 @@
+# Root .gitignore for Go + React + PostgreSQL Scaffold
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment & Secrets (Never commit credentials)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Logs
+*.log
+logs/
+
+# Build artifacts & caches
+dist/
+build/
+coverage/
+*.out
+
+# Node dependencies & caches
+node_modules/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Go binaries & tool caches
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/backend/bin/
+
+# Temporary / Scratch directories
+scratch/
+tmp/
+.temp/

@@ -1,0 +1,27 @@
+# Go Backend .gitignore
+
+# Binaries and build output
+bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test outputs
+coverage.out
+*.test
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
